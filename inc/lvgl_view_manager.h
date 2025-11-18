@@ -46,4 +46,4 @@ void screen_manager_init(void);  // 初始化页面管理器（启动时调用�
 void screen_manager_switch_page(const PageInfo_t* page_info);  // 跳转指定页面
 void screen_manager_back(void);  // 返回上一个页面
 
-#endif /* _UI_SCREEN_MANAGER_H */
+#endif /* _LVGL_VIEW_MANAGER_H */
